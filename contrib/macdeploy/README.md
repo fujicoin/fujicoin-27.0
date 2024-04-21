@@ -29,7 +29,7 @@ To extract the `.xip` on Linux:
 ```bash
 # Install/clone tools needed for extracting Xcode.app
 apt install cpio
-git clone https://github.com/fujicoin-core/apple-sdk-tools.git
+git clone https://github.com/bitcoin-core/apple-sdk-tools.git
 
 # Unpack the .xip and place the resulting Xcode.app in your current
 # working directory
@@ -96,6 +96,6 @@ deterministic. Here's how it works:
   users may choose to bless and run. It also outputs an unsigned app structure in the form
   of a tarball.
 - The Apple keyholder uses this unsigned app to create a detached signature, using the
-  script that is also included there. Detached signatures are available from this [repository](https://github.com/fujicoin-core/fujicoin-detached-sigs).
+  script that is also included there. Detached signatures are available from this [repository](https://github.com/bitcoin-core/bitcoin-detached-sigs).
 - Builders feed the unsigned app + detached signature back into Guix. It uses the
   pre-built tools to recombine the pieces into a deterministic ZIP.
