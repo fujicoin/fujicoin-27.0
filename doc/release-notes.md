@@ -1,13 +1,13 @@
 Fujicoin Core version 27.0 is now available from:
 
-  <https://bitcoincore.org/bin/bitcoin-core-27.0/>
+  <https://download.fujicoin.org/fujicoin-v27.0/>
 
 This release includes new features, various bug fixes and performance
 improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/bitcoin/bitcoin/issues>
+  <https://github.com/fujicoin/fujicoin/issues>
 
 To receive security and update notifications, please subscribe to:
 

@@ -586,7 +586,9 @@ crypto_libfujicoin_crypto_base_la_SOURCES = \
   crypto/sha512.cpp \
   crypto/sha512.h \
   crypto/siphash.cpp \
-  crypto/siphash.h
+  crypto/siphash.h \
+  crypto/scrypt.cpp \
+  crypto/scrypt.h
 
 # See explanation for -static in crypto_libfujicoin_crypto_base_la's LDFLAGS and
 # CXXFLAGS above
